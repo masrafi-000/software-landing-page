@@ -5,7 +5,11 @@ import { useEffect, useState } from "react";
 import { GrTechnology } from "react-icons/gr";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
-const Nav = () => {
+type Props = {
+  openNav: () => void;
+};
+
+const Nav = ({ openNav }: Props) => {
   const [navBg, setNavBg] = useState(false);
 
   useEffect(() => {
@@ -18,15 +22,19 @@ const Nav = () => {
       }
     };
 
-    window.addEventListener('scroll', handler)
+    window.addEventListener("scroll", handler);
 
     return () => {
-      window.removeEventListener('scroll', handler)
-    }
+      window.removeEventListener("scroll", handler);
+    };
   }, []);
 
   return (
-    <div className={`transition-all ${navBg ? "bg-blue-900 shadow-md" : "fixed"} duration-200 h-[8vh] z-100 fixed w-full bg-blue-900`}>
+    <div
+      className={`transition-all ${
+        navBg ? "bg-blue-900 shadow-md" : "fixed"
+      } duration-200 h-[8vh] z-[1000] fixed w-full`}
+    >
       <div className="flex justify-between items-center h-full w-[90%] xl:w-[80%] mx-auto">
         {/* logo */}
         <div className="flex items-center space-x-2">
@@ -66,7 +74,10 @@ const Nav = () => {
           </a>
           {/* ThemeToggler */}
           {/* Humberger Menu */}
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-white lg:hidden" />
+          <HiBars3BottomRight
+            onClick={openNav}
+            className="w-8 h-8 cursor-pointer text-white lg:hidden"
+          />
         </div>
       </div>
     </div>
