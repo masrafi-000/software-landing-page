@@ -22,7 +22,7 @@ const Home = () => {
         duration: 1000,
         once: true,
         easing: 'ease',
-        mirror:false,
+        mirror: false,
         anchorPlacement: 'top-bottom',
       })
 
