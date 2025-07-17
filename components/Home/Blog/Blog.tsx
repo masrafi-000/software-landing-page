@@ -19,7 +19,7 @@ const Blog = () => {
           return (
             <div
               key={items.id}
-              data-aos="fade-right"
+              data-aos="zoom-in"
               data-aos-anchor-placement="top-center"
               data-aos-delay={items.delay}
             >
