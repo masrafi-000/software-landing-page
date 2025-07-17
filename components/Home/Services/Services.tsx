@@ -27,9 +27,22 @@ const Services = () => {
         {/* Services Card */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center mt-16">
-            {ServiceCardData.map((items)=>{
-              return <ServiceCard image={items.image} title={items.title} desc={items.desc} key={items.id} />
-            })}
+          {ServiceCardData.map((items) => {
+            return (
+              <div
+                key={items.id}
+                data-aos="fade-right"
+                data-aos-anchor-placement="top-center"
+                data-aos-delay={items.delay}
+              >
+                <ServiceCard
+                  image={items.image}
+                  title={items.title}
+                  desc={items.desc}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

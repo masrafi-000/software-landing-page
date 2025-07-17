@@ -5,7 +5,9 @@ const About = () => {
     <div className="pt-16 pb-16">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Image content */}
-        <div>
+        <div data-aos="zoom-in"
+        data-aos-anchor-placement="top-center"
+        >
           <Image src="/images/about.png" alt="about" width={700} height={700} />
         </div>
         {/* Text content */}
@@ -49,7 +51,12 @@ const About = () => {
             </div>
           </div>
           <div className="mt-12">
-            <a href="#_" className="w-full py-4 text-base text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto ">About More</a>
+            <a
+              href="#_"
+              className="w-full py-4 text-base text-center text-white transition-colors font-semibold duration-300 bg-blue-800 rounded-full uppercase hover:bg-blue-900 ease px-9 md:w-auto "
+            >
+              About More
+            </a>
           </div>
         </div>
       </div>

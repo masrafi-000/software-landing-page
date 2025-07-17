@@ -16,7 +16,15 @@ const Software = () => {
       {/* Cards */}
       <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 ">
             {SoftwareCardData.map((items) =>{
-                return <SoftwareCard key={items.id} icon={items.image} title={items.title} desc={items.desc} />
+                return <div key={items.id}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-center"
+                  data-aos-delay={items.delay}
+                >
+
+                  <SoftwareCard  icon={items.image} title={items.title} desc={items.desc} />
+                </div>
+                
             })}
       </div>
     </div>

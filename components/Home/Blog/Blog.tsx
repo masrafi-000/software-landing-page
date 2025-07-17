@@ -15,11 +15,18 @@ const Blog = () => {
 
       {/* Blog Card Section */}
       <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 ">
-        {
-            BlogData.map((items) => {
-                return <BlogCard key={items.id} image={items.image} title={items.title} />
-            })
-        }
+        {BlogData.map((items) => {
+          return (
+            <div
+              key={items.id}
+              data-aos="fade-right"
+              data-aos-anchor-placement="top-center"
+              data-aos-delay={items.delay}
+            >
+              <BlogCard image={items.image} title={items.title} />
+            </div>
+          );
+        })}
       </div>
     </div>
   );

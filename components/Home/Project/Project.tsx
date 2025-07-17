@@ -28,7 +28,16 @@ const Project = () => {
         {/* Project Images */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
           {ProjectData.map((items) => {
-            return <Image key={items.id} src={items.image} alt='image' width={600} height={600} />
+            return (
+              <div
+                key={items.id}
+                data-aos="zoom-out"
+                data-aos-anchor-placement="top-center"
+                data-aos-delay={items.delay}
+              >
+                <Image src={items.image} alt="image" width={600} height={600} />
+              </div>
+            );
           })}
         </div>
       </div>
