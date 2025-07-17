@@ -70,3 +70,51 @@ export const ServiceCardData = [
         desc: "We build custom software solutions that are tailored to your specific needs.",
     },
 ]
+
+export const SoftwareCardData = [
+    {
+        id: "1",
+        image: "/images/i1.png",
+        title: "Best Marketing Software",
+        desc: "We build custom software solutions that are tailored to your specific needs.",
+    },
+    {
+        id: "2",
+        image: "/images/i2.png",
+        title: "Product Sales Software",
+        desc: "We build custom software solutions that are tailored to your specific needs.",
+    },
+    {
+        id: "3",
+        image: "/images/i3.png",
+        title: "Best Marketing Software",
+        desc: "We build custom software solutions that are tailored to your specific needs.",
+    },
+]
+
+export const ProjectData = [
+    {
+        id: "1",
+        image: "/images/p1.png",
+    },
+    {
+        id: "2",
+        image: "/images/p2.png",
+    },
+    {
+        id: "3",
+        image: "/images/p3.png",
+    },
+    {
+        id: "4",
+        image: "/images/p4.png",
+    },
+    {
+        id: "5",
+        image: "/images/p5.png",
+    },
+    {
+        id: "6",
+        image: "/images/p6.png",
+    },
+]
