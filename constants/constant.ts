@@ -118,3 +118,49 @@ export const ProjectData = [
         image: "/images/p6.png",
     },
 ]
+
+export const ReviewData = [
+    {
+        id: "1",
+        reviewTitle: "Best Software Company",
+        userImage: "/images/c1.png",
+        userName: "John Doe",
+        desc: "We build custom software solutions that are tailored to your specific needs.",
+        role: "CEO, ABC Company",
+    },
+    {
+        id: "2",
+        reviewTitle: "Best Software Company",
+        userImage: "/images/c2.png",
+        userName: "Jane Doe",
+        desc: "We build custom software solutions that are tailored to your specific needs.",
+        role: "CEO, ABC Company",
+    },
+    {
+        id: "3",
+        reviewTitle: "Best Software Company",
+        userImage: "/images/c3.png",
+        userName: "John Doe",
+        desc: "We build custom software solutions that are tailored to your specific needs.",
+        role: "CEO, ABC Company",
+    },
+    
+]
+
+export const BlogData = [
+    {
+        id: "1",
+        image: "/images/b1.png",
+        title: "Best Software Company",
+    },
+    {
+        id: "2",
+        image: "/images/b2.png",
+        title: "Best Software Company",
+    },
+    {
+        id: "3",
+        image: "/images/b3.png",
+        title: "Best Software Company",
+    },
+]
