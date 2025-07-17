@@ -165,18 +165,18 @@ export const BlogData = [
     id: "1",
     image: "/images/b1.png",
     title: "Best Software Company",
-    delay: "150",
+    delay: "100",
   },
   {
     id: "2",
     image: "/images/b2.png",
     title: "Best Software Company",
-    delay: "300",
+    delay: "200",
   },
   {
     id: "3",
     image: "/images/b3.png",
     title: "Best Software Company",
-    delay: "450",
+    delay: "300",
   },
 ];
