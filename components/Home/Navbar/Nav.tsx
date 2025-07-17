@@ -1,4 +1,6 @@
 "use client";
+import ThemeToggler from "@/components/Helper/ThemeToggler";
+
 import { Navlinks } from "@/constants/constant";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -73,6 +75,7 @@ const Nav = ({ openNav }: Props) => {
             <span className="relative">Create Account</span>
           </a>
           {/* ThemeToggler */}
+          <ThemeToggler />
           {/* Humberger Menu */}
           <HiBars3BottomRight
             onClick={openNav}

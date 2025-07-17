@@ -1,3 +1,4 @@
+import Provider from "@/components/HOC/Provider";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import type { Metadata } from "next";
 import { Rajdhani } from "next/font/google";
@@ -19,10 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${font.className} antialiased`}>
-        <ResponsiveNav />
-        {children}
+        <Provider>
+          <ResponsiveNav />
+          {children}
+        </Provider>
       </body>
     </html>
   );
