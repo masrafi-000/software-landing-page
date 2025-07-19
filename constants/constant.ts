@@ -44,35 +44,35 @@ export const ServiceCardData = [
     image: "/images/s2.png",
     title: "Web Application Development",
     desc: "We build custom software solutions that are tailored to your specific needs.",
-    delay: "150",
+    delay: "125",
   },
   {
     id: "3",
     image: "/images/s3.png",
     title: "Mobile Application Development",
     desc: "We build custom software solutions that are tailored to your specific needs.",
-    delay: "200",
+    delay: "150",
   },
   {
     id: "4",
     image: "/images/s4.png",
     title: "Cloud Application Development",
     desc: "We build custom software solutions that are tailored to your specific needs.",
-    delay: "250",
+    delay: "175",
   },
   {
     id: "5",
     image: "/images/s5.png",
     title: "AI & Machine Learning",
     desc: "We build custom software solutions that are tailored to your specific needs.",
-    delay: "300",
+    delay: "200",
   },
   {
     id: "6",
     image: "/images/s6.png",
     title: "Data Analytics & Visualization",
     desc: "We build custom software solutions that are tailored to your specific needs.",
-    delay: "350",
+    delay: "225",
   },
 ];
 
@@ -82,21 +82,21 @@ export const SoftwareCardData = [
     image: "/images/i1.png",
     title: "Best Marketing Software",
     desc: "We build custom software solutions that are tailored to your specific needs.",
-    delay: "200",
+    delay: "100",
   },
   {
     id: "2",
     image: "/images/i2.png",
     title: "Product Sales Software",
     desc: "We build custom software solutions that are tailored to your specific needs.",
-    delay: "300",
+    delay: "150",
   },
   {
     id: "3",
     image: "/images/i3.png",
     title: "Best Marketing Software",
     desc: "We build custom software solutions that are tailored to your specific needs.",
-    delay: "400",
+    delay: "200",
   },
 ];
 
@@ -104,32 +104,32 @@ export const ProjectData = [
   {
     id: "1",
     image: "/images/p1.png",
-    delay: "100",
+    delay: "50",
   },
   {
     id: "2",
     image: "/images/p2.png",
-    delay: "200",
+    delay: "75",
   },
   {
     id: "3",
     image: "/images/p3.png",
-    delay: "300",
+    delay: "100",
   },
   {
     id: "4",
     image: "/images/p4.png",
-    delay: "400",
+    delay: "125",
   },
   {
     id: "5",
     image: "/images/p5.png",
-    delay: "500",
+    delay: "150",
   },
   {
     id: "6",
     image: "/images/p6.png",
-    delay: "600",
+    delay: "175",
   },
 ];
 
@@ -165,18 +165,18 @@ export const BlogData = [
     id: "1",
     image: "/images/b1.png",
     title: "Best Software Company",
-    delay: "100",
+    delay: "50",
   },
   {
     id: "2",
     image: "/images/b2.png",
     title: "Best Software Company",
-    delay: "200",
+    delay: "75",
   },
   {
     id: "3",
     image: "/images/b3.png",
     title: "Best Software Company",
-    delay: "300",
+    delay: "100",
   },
 ];

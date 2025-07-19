@@ -19,8 +19,8 @@ const Blog = () => {
           return (
             <div
               key={items.id}
-              data-aos="zoom-in-right"
-              data-aos-anchor-placement="top-center"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
               data-aos-delay={items.delay}
             >
               <BlogCard image={items.image} title={items.title} />
